@@ -22,6 +22,24 @@ h1{
     grid-template-columns: 150px 1fr;
   }
 
+  @media (max-width: 768px) {
+  
+    #grid ol{
+        border-right: 3px solid pink;
+        border-bottom: 3px solid pink;
+    }
+
+    h1{
+        border-bottom: 3px solid pink;
+    }
+    img{
+      width: 1fr; height: 130px;
+    }
+    p{
+      font-size: 15px;
+    }
+  }
+
   @media (max-width: 320px) {
     #grid {
         display: block;
@@ -30,8 +48,15 @@ h1{
     #grid ol{
         border-right: none;
     }
+    ol{
+      font-size: medium;
+    }
 
     h1{
         border-bottom: none;
+    }
+    p {
+      font-size: small;
+      border: 1px solid blue;
     }
   }
