@@ -22,7 +22,7 @@ h1{
     grid-template-columns: 150px 1fr;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 768px) {
     #grid {
         display: block;
     }
@@ -33,5 +33,30 @@ h1{
 
     h1{
         border-bottom: none;
+    }
+  }
+   @media (max-width:320px) {
+    #grid {
+        display: block;
+    }
+
+    #grid ol{
+      border-right: 1px solid gray;
+    width: 50px;
+    margin: 0px;
+    padding: 20px;
+        border-right: 1px solid gray;
+    }
+
+    h1{
+        border-bottom: 1px solid red;
+        font-size: 20px;
+    text-align: center;
+    border-bottom: none;
+    margin: 0px;
+    }
+
+    p{
+      font-size: 5px;
     }
   }
