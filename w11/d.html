@@ -1,0 +1,31 @@
+<html>
+  <head> </head>
+
+  <body>
+    <h1>포켓몬스터</h1>
+    <h2>스칼렛 바이올렛</h2>
+    <h3>스타팅 포켓몬</h3>
+    <ul>
+      <script>
+        const nameList = ["나오하", "뜨아거", "꾸왁스"];
+        const imgList = ["090601", "090901", "091201"];
+        var i = 0;
+        while (i < nameList.length) {
+          document.write(
+            '<li><a href="https://ko.wikipedia.org/wiki/' +
+              nameList[i] +
+              '">' +
+              nameList[i] +
+              "</li>"
+          );
+          document.write(
+            '<img src="https://data1.pokemonkorea.co.kr/newdata/pokedex/full/' +
+              imgList[i] +
+              '.png" width="30%">'
+          );
+          i = i + 1;
+        }
+      </script>
+    </ul>
+  </body>
+</html>

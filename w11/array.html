@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <headd>
+
+    </headd>
+    <body>
+        <h1>발로란트</h1>
+        <h2>발로란트 요원들</h2>
+        <h3>엔트리,연막,척후대,감시자 </h3>
+        <u1>
+        <script>
+            const namelist =["제트","피닉스","레이나","레이즈","바이퍼","오멘","게코","소바","킬조이","체임버"]
+            const imgList = ["0","1","2","3","4","5","6","7","8","9",];
+            var i =0;
+            while( i< namelist.length){
+            document.write('<li><a href ="https://www.google.com/search?q=%EB%B0%9C%EB%A1%9C%EB%9E%80%ED%8A%B8 '+ namelist[i] +'">' +namelist[i] + '</a></li>');
+            document.write('<img src="'+ imgList[i] +'.png" width="30%">');
+            i= i+1;
+        }
+        </script>
+        </u1>
+        <h3>count</h3>
+        <script>
+            document.write(namelist.length);
+        </script>
+        <h3>push</h3>
+        <script>
+            namelist.push("꾸왁스");
+            document.write(namelist.length);
+            document.write(namelist[10]);
+        </script>
+    </body>
+</html>
