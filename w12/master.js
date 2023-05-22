@@ -23,4 +23,5 @@ var target = document.querySelector('body');
           document.querySelector('#night_day_1').value = 'day';
           }
         }
+        
     }
